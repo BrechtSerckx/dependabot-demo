@@ -23,4 +23,4 @@ jobs:
     - uses: actions/setup-go@v5.4.0
     # major
     - uses: actions/setup-python@v4.9.0
-    - uses: actions/setup-dotnet@v2.2.1
+    - uses: actions/setup-dotnet@v4.3.1
