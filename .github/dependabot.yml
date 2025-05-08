@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: "daily"
     groups:
-      minor-updates:
+      github-actions-minor-updates:
         applies-to: version-updates
         update-types:
           - "minor"
