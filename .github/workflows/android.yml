@@ -17,3 +17,10 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
+
+    # minor
+    - uses: actions/setup-node@v4.3.0
+    - uses: actions/setup-go@v5.4.0
+    # major
+    - uses: actions/setup-python@v4.9.0
+    - uses: actions/setup-dotnet@v2.2.1
